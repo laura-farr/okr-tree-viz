@@ -1,0 +1,15 @@
+{
+  "name": "OKR Collapsible Tree",
+  "organization": "Your Organization",
+  "description": "Interactive collapsible hierarchy tree for OKRs and objectives",
+  "devMode": false,
+  "components": [{
+    "id": "okr-tree",
+    "name": "OKR Collapsible Tree",
+    "description": "Click nodes to expand/collapse objectives and achievements",
+    "resource": {
+      "js": "index.js",
+      "config": "viz.json"
+    }
+  }]
+}

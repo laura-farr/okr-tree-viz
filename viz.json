@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "OKR Data",
+      "elements": [
+        {
+          "id": "id",
+          "label": "ID",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "parent",
+          "label": "Parent ID",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "label",
+          "label": "Label / Name",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "type",
+          "label": "Type (Company / Area / Team / Achievement)",
+          "type": "DIMENSION",
+          "options": { "min": 0, "max": 1 }
+        },
+        {
+          "id": "metric",
+          "label": "Progress / Value",
+          "type": "METRIC",
+          "options": { "min": 0, "max": 1 }
+        },
+        {
+          "id": "target",
+          "label": "Target",
+          "type": "METRIC",
+          "options": { "min": 0, "max": 1 }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "styleOptions",
+      "label": "Tree Options",
+      "elements": [
+        {
+          "id": "colorByType",
+          "label": "Color nodes by Type column",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        },
+        {
+          "id": "showProgress",
+          "label": "Show progress bar on nodes",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        },
+        {
+          "id": "startExpanded",
+          "label": "Start fully expanded",
+          "type": "CHECKBOX",
+          "defaultValue": "false"
+        }
+      ]
+    }
+  ]
+}
