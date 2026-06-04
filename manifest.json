@@ -7,9 +7,9 @@
     "id": "okr-tree",
     "name": "OKR Collapsible Tree",
     "description": "Click nodes to expand/collapse objectives and achievements",
-    "resource": {
-      "js": "index.js",
-      "config": "viz.json"
-    }
+"resource": {
+  "js": "https://laura-farr.github.io/okr-tree-viz/index.js",
+  "config": "https://laura-farr.github.io/okr-tree-viz/viz.json"
+}
   }]
 }
